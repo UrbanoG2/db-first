@@ -1,0 +1,12 @@
+RENTAL STRUCTURE
+
+ID                              | INT - Autoincrement - Unique - NOT NULL [PRIMARY KEY]
+CILINDRATA                      | VARCHAR (15) - NULL
+POTENZA                         | VARCHAR (15) - NULL
+MARCA                           | VARCHAR (25) - NOT NULL
+MODELLO                         | VARCHAR (25) - NOT NULL
+PREZZO                          | INT - NOT NULL 
+KM PERCORSI DALLA VETTURA       | INT - NOT NULL 
+ANNO REALIZZAZIONE              | INT - NULL
+CONSUMO MEDIO (km/l)            | VARCHAR (5) - NULL
+FOTO                            | VARCHAR (255) / DEFAULT - NULL 

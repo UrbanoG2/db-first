@@ -5,7 +5,7 @@ CILINDRATA                      | VARCHAR (15) - NULL
 POTENZA                         | VARCHAR (15) - NULL
 MARCA                           | VARCHAR (25) - NOT NULL
 MODELLO                         | VARCHAR (25) - NOT NULL
-PREZZO                          | INT - NOT NULL 
+PREZZO                          | FLOAT 8,2 - NOT NULL 
 KM PERCORSI DALLA VETTURA       | INT - NOT NULL 
 ANNO REALIZZAZIONE              | INT - NULL
 CONSUMO MEDIO (km/l)            | VARCHAR (5) - NULL
